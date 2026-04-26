@@ -18,7 +18,7 @@ while guess != secret_word:
         print("Game over")
         break
     elif guess in secret_word:
-        print("This letter are in the word!")
+        print("This letter is in the word!")
     else:
         print("Sorry, try again!")
 
