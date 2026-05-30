@@ -1,4 +1,4 @@
-secret_word = "Zoiao"
+secret_word = "Sonic"
 guess = ""
 guess_count = 0
 guess_limit = 3
@@ -25,4 +25,4 @@ while guess != secret_word:
     print(f"Attempts left: {guess_limit - guess_count}")
 
     if guess_count == 2:
-        print("Hint: Nick name I had when I was a kid")
+        print("Hint: My favorite character in games since I was 4 spelled backwards.")
