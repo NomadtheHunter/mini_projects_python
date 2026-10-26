@@ -1,10 +1,10 @@
-secret_word = "Sonic"
+secret_word = "Cinos"
 guess = ""
 guess_count = 0
-guess_limit = 3
+guess_limit = 5
 
 print("""Welcome to the secret word Game
-You got 3 tries to guess the word!""")
+You got 5 tries to guess the word!""")
 
 while guess != secret_word:
     guess = input("Guess a letter: ")
@@ -24,5 +24,7 @@ while guess != secret_word:
 
     print(f"Attempts left: {guess_limit - guess_count}")
 
-    if guess_count == 2:
-        print("Hint: My favorite character in games since I was 4 spelled backwards.")
+    if guess_count == 1:
+        print("Hint: Famous video game character.")
+    if guess_count == 4:
+        print("Hint: My favorite character in games since I was 4, spelled backwards.")
